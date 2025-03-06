@@ -1,18 +1,22 @@
 h1 {
     background-color: #b08989;
     color: white;
+    width: 400px;
 }
 
 body {
     background: wheat;
 }
 
-ul {
-    background:lightyellow;
-    line-height: 2rem;
-    margin:0px;
-    padding:10px;
-    width:400px;
-    list-style-type: none;
-    text-align: center;
+
+
+.lasagna-image {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.lasagna {
+
+    width: 200px;
+    height: 200px;
 }
