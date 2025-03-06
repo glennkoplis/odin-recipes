@@ -1,22 +1,43 @@
 h1 {
+    text-align: center;
     background-color: #b08989;
     color: white;
-    width: 400px;
 }
 
 body {
     background: wheat;
 }
 
-
-
-.lasagna-image {
-    width: 200px;
-    border-radius: 50%;
+.box {
+    background-color: antiquewhite;
+    width: 250px;
+    height: 450px;
+    border: 5px solid #b08989;
+    text-align: center;
+    display: inline-block;
 }
 
-.lasagna {
-
+.image {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    border: 5px solid #b08989;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+.link {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.text {
+    background-color: whitesmoke;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
 }
