@@ -1,13 +1,19 @@
 h1 {
     text-align: center;
     background-color: #a47148;
+    width: 500px;
     color: white;
     padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    
 }
 
 body {
-    background: #ffedd8;
+    background-image: url("./images/wallpaper.png");
+    background-size: 900px 700px;
 }
+
 
 .box {
     background-color: burlywood;
