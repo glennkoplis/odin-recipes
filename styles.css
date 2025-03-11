@@ -15,7 +15,9 @@ body {
 }
 
 
-.box {
+.one,
+.two,
+.three {
     background-color: burlywood;
     border: 5px solid #a47148;
     border-radius: 10%;
@@ -59,9 +61,26 @@ p {
     padding-top: 10px;
 }
 
+.one:hover,
+.two:hover,
+.three:hover {
+    border: 5px solid #ffd700;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
+
+/* Flexbox */
 .all {
     border: 1px solid #fff;
     width: 1250px;
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.three {
+    order: -1;
 }
